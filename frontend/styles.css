@@ -1,0 +1,137 @@
+*{
+    color: #333;
+}
+
+body { 
+    background-color: #ff636eff;
+    color: #333;
+}
+
+.content-container { 
+    margin: 30px auto; 
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between; 
+    padding: 5px 10px;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+ .content-container-sm { 
+   margin: 10px auto; 
+ }
+
+ .nav-links { 
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 20px;
+ }
+
+ .nav-items, li { 
+    margin-right: 20px;
+ }
+
+ .nav-item { 
+    text-decoration: none;
+    color: #333;
+ }
+
+ .nav-btn { 
+    background-color: #ff636eff;
+    padding: 7px 12px;
+    border-radius: 5px;
+ }
+
+ main { 
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fafafa;
+    padding: 30px 0;
+ }
+
+ main h1 {
+    font-size: 300%;
+ }
+ .main-sections { 
+    display: flex;
+    justify-content: center;
+ }
+.text-section {
+    flex-grow: 1;
+}
+.image-section { 
+    position: relative;
+    /* margin: auto; */
+    flex-grow: 1;
+    margin-left: 30px;
+}
+
+.sm-card { 
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 5px 2px rgba(220, 220, 220, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* This divides the container into three columns with a 1:2:1 ratio */
+    grid-column-gap: 0.5rem;
+}
+
+.sm-one { 
+    top: 25%;
+    left: -25%;
+    width: 135px;
+}
+
+.sm-two { 
+    bottom: 0%;
+    left: 30%;
+    width: 170px;
+}
+
+.sm-icon-div  { 
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.sm-text-div { 
+    font-size: x-small;
+    font-weight: lighter;
+}
+ 
+.sm-icon-box { 
+    padding: 1px 4px;
+    border-radius: 5px;
+}
+
+.sm-one .sm-icon-box  {
+    background-color: #ff8637;
+}
+
+.sm-two .sm-icon-box {
+    background-color: #e74b57; 
+}
+
+/* .sm-one .sm-text-div { 
+     padding-left: 2px;
+     background-color: red;
+} */
+
+.button-section { 
+    display: flex;
+    align-items: center;
+}
+
+.button-section button { 
+    background-color: #e74b57;
+    color: white;
+    margin-right: 50px;
+}
