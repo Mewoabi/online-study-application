@@ -135,3 +135,15 @@ nav {
     color: white;
     margin-right: 50px;
 }
+
+.bi-play-circle { 
+    font-size: xx-large;
+    color: #e74b57;
+    margin-right: 8px;
+}
+
+.play-btn-div { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
